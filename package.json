@@ -1,19 +1,27 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.25"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.0",
-    "typescript": "^4.5.4",
-    "vite": "^2.9.0",
-    "vue-tsc": "^0.29.8"
-  }
+	"name": "vite-project",
+	"version": "0.0.0",
+	"private": true,
+	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
+	"engines": {
+		"node": ">=16",
+		"pnpm": ">=6"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"preview": "vite preview",
+		"lint": "eslint --ext .js,.vue,.ts,.mjs,.mts --ignore-path .gitignore --fix src"
+	},
+	"dependencies": {
+		"vue": "^3.2.33"
+	},
+	"devDependencies": {
+		"@mioe/eslint-config": "^0.0.7",
+		"@vitejs/plugin-vue": "^2.3.1",
+		"eslint": "^8.13.0",
+		"typescript": "^4.6.3",
+		"vite": "^2.9.5",
+		"vue-tsc": "^0.29.8"
+	}
 }
