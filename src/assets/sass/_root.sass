@@ -1,0 +1,37 @@
+:root
+	--font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+	--transition--delay: .25s
+	--transition--timing-function: cubic-bezier(.4,0,.2,1)
+	--transition: var(--transition--delay) var(--transition--timing-function)
+
+:root
+	--document--light: hsl(0, 0%, 100%)
+	--document--dark: hsl(0, 0%, 12%)
+	--primary--light: hsl(28, 98%, 47%)
+	--primary--dark: hsl(21, 100%, 59%)
+	--secondary--light: hsl(0, 0%, 96%)
+	--secondary--dark: hsl(0, 0%, 16%)
+	--typography-common--light: hsl(0, 0%, 12%)
+	--typography-common--dark: hsl(0, 0%, 100%)
+	--typography-secondary--light: hsl(0, 0%, 32%)
+	--typography-secondary--dark: hsl(0, 0%, 67%)
+	--tab-focus: hsl(274, 92%, 62%)
+
+:root
+	--document: var(--document--light)
+	--primary: var(--primary--light)
+	--secondary: var(--secondary--light)
+	--typography-common: var(--typography-common--light)
+	--typography-secondary: var(--typography-secondary--light)
+
+html.dark:root
+	--document: var(--document--dark)
+	--primary: var(--primary--dark)
+	--secondary: var(--secondary--dark)
+	--typography-common: var(--typography-common--dark)
+	--typography-secondary: var(--typography-secondary--dark)
+
+/* set color-scheme for safari */
+html.dark
+	color-scheme: dark
+
