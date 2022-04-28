@@ -22,7 +22,8 @@
 	},
 	"scripts": {
 		"dev": "vite",
-		"build": "vue-tsc --noEmit && vite build",
+		"build": "vue-tsc --declaration --emitDeclarationOnly && vite build",
+		"typecheck": "vue-tsc --noEmit",
 		"preview": "vite preview",
 		"lint": "eslint --ext .js,.vue,.ts,.mjs,.mts --ignore-path .gitignore --fix src"
 	},
