@@ -5,7 +5,7 @@ import App from './App.vue'
  * Styles
  */
 import 'virtual:windi.css'
-import '@/@packages/windi-themes/oh-my-project/assets/main.sass'
+import '@mioe/packages/windi-themes/oh-my-project/assets/sass/main.sass'
 
 /**
  * init app

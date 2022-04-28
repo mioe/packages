@@ -9,6 +9,7 @@ export default defineConfig(() => {
 		resolve: {
 			alias: {
 				'@/': `${resolve(__dirname, 'src')}/`,
+				'@mioe/packages': `${resolve(__dirname, 'src/@packages')}/`,
 			},
 		},
 		plugins: [
