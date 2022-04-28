@@ -1,8 +1,21 @@
 {
-	"name": "vite-project",
-	"version": "0.0.0",
-	"private": true,
+	"name": "@mioe/packages",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
+	"version": "0.0.1",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/packages.umd.js",
+	"module": "./dist/packages.es.js",
+	"typings": "./dist/main.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/packages.es.js",
+			"require": "./dist/packages.umd.js"
+		},
+		"./style.css": "./dist/style.css"
+	},
 	"engines": {
 		"node": ">=16",
 		"pnpm": ">=6"
