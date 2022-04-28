@@ -8,11 +8,6 @@ export default defineConfig(() => {
 	console.log('🦕 vite.config.ts')
 
 	return {
-		resolve: {
-			alias: {
-				'@/': `${resolve(__dirname, 'src')}/`,
-			},
-		},
 		plugins: [
 			vue(),
 
@@ -21,7 +16,7 @@ export default defineConfig(() => {
 		],
 		build: {
 			lib: {
-				entry: `${resolve(__dirname, 'src')}/packages.ts`,
+				entry: `${resolve(__dirname, 'src')}/main.ts`,
 				name: 'packages',
 			},
 			rollupOptions: {

@@ -1,14 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-
 /**
  * Styles
  */
 import 'virtual:windi.css'
-import '@/assets/sass/main.sass'
+import './assets/sass/main.sass'
 
 /**
- * init app
+ * Export components
  */
-createApp(App)
-	.mount('#app')
+export { default as HelloWorld } from './components/HelloWorld.vue'

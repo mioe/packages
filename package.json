@@ -4,11 +4,14 @@
 	"version": "0.0.1",
 	"license": "MIT",
 	"files": [
-		"dist"
+		"dist",
+		"dist-types",
+		"LICENSE",
+		"README.md"
 	],
 	"main": "./dist/packages.umd.js",
 	"module": "./dist/packages.es.js",
-	"typings": "./dist/main.d.ts",
+	"typings": "./dist-types/main.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/packages.es.js",
