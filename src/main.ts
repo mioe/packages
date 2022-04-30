@@ -12,4 +12,5 @@ export { default as OhMyProject } from './assets/windi-themes/oh-my-project/inde
 /**
  * Export components
  */
-export { default as Checkbox } from './components/Checkbox/Checkbox.vue'
+import Checkbox from './components/Checkbox/Checkbox.vue'
+export { Checkbox }
