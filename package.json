@@ -1,7 +1,7 @@
 {
 	"name": "@mioe/packages",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"license": "MIT",
 	"files": [
 		"dist",
