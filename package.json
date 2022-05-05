@@ -28,7 +28,7 @@
 		"build": "vitepress build docs",
 		"preview": "vitepress preview docs",
 		"typecheck": "vue-tsc --noEmit",
-		"lint": "eslint --ext .js,.vue,.ts,.mjs,.mts --ignore-path .gitignore --fix src",
+		"lint": "eslint --ext .js,.vue,.ts,.mjs,.mts --ignore-path .gitignore --fix src docs",
 		"pub": "vue-tsc --declaration --emitDeclarationOnly && vite build && pnpm publish"
 	},
 	"dependencies": {
