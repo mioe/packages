@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {
 	Checkbox,
-} from '@mioe/packages'
+} from '../../../src/main'
 </script>
 
 <template>
