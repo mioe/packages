@@ -32,8 +32,10 @@
 		"deploy": "vitepress build docs && firebase deploy"
 	},
 	"dependencies": {
+		"@vueuse/core": "^8.4.2",
 		"pinia": "^2.0.14",
-		"vue": "^3.2.33"
+		"vue": "^3.2.33",
+		"vue-starport": "^0.2.10"
 	},
 	"devDependencies": {
 		"@mioe/eslint-config": "^0.1.0",

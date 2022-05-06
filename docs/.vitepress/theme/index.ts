@@ -1,5 +1,5 @@
 // @ts-ignore
-import Layout from './layouts/DefaultLayout.vue'
+import Layout from './App.vue'
 
 /**
  * Plugins

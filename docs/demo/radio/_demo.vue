@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import {
-	Checkbox,
+	Radio,
 } from '../../../src/main'
 </script>
 
 <template>
 	<div>
-		<Checkbox>
+		<Radio>
 			ddd
-		</Checkbox>
+		</Radio>
 	</div>
 </template>

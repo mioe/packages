@@ -1,20 +1,28 @@
-<script setup lang="ts">
-import { computed } from 'vue'
-import { useAppStore } from '../stores/app'
-const appStore = useAppStore()
-
-const dd = computed(() => appStore.greetings)
+<script setup>
+import { Starport } from 'vue-starport'
+import Demo from '../../../demo/Demo.vue'
 
 defineProps({
-	home: {
-		type: Boolean,
-		default: false,
+	routeName: {
+		type: String,
+		default: null,
 	},
 })
 </script>
 
 <template>
-	<div>
-		<Content /><!-- this is where markdown content will be rendered -->
+	<div class="container-default">
+		<Starport
+			:port="routeName"
+			style="height: 200px;"
+		>
+			<Demo :name="routeName" />
+		</Starport>
+
+		Default
+		<slot />
+		<a href="/">
+			ff
+		</a>
 	</div>
 </template>

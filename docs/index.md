@@ -1,1 +1,1 @@
-[test](/src/Checkbox/index)
+[test](/src/checkbox)
