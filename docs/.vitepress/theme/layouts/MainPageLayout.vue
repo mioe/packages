@@ -14,7 +14,7 @@ import { routes } from '../../../routes'
 			>
 				<Starport
 					:port="route.name"
-					style="height: 200px; position: relative;"
+					style="height: 200px"
 				>
 					<Demo :name="route.name" />
 				</Starport>
@@ -35,18 +35,10 @@ import { routes } from '../../../routes'
 .mi--wrapper
 	position: relative
 	min-height: 100vh
-	background-color: var(--secondary)
 	padding: 16px
 
 .mi--grid
 	display: grid
 	grid-template-columns: repeat(auto-fill, minmax(280px,1fr))
 	gap: 16px
-
-.mi--card
-	position: relative
-	background-color: var(--document)
-	border-radius: 8px
-	box-shadow: 0 0 15px rgba(0,0,0,.05)
-	padding: 16px
 </style>

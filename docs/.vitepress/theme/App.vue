@@ -26,7 +26,7 @@ const routeName = computed(() => {
 			<Transition name="page-fade">
 				<MainPageLayout
 					v-if="isMainPage"
-					class="absolute left-0 right-0 w-full"
+					class="absolute top-0 left-0 right-0 w-full h-full"
 				>
 					<template #default>
 						<Content /><!-- this is where markdown content will be rendered -->
@@ -36,7 +36,7 @@ const routeName = computed(() => {
 				<DefaultLayout
 					v-else
 					:route-name="routeName"
-					class="absolute left-0 right-0 w-full"
+					class="absolute top-0 left-0 right-0 w-full h-full"
 				>
 					<template #default>
 						<Content />
