@@ -26,8 +26,14 @@ import MainCard from '../components/MainCard.vue'
 
 				<a
 					:href="route.href"
+					class="inline-flex items-center"
 				>
-					{{ route.name }}
+					<icon-carbon:arrow-right
+						class="text-$primary"
+					/>
+					<span class="ml-[6px]">
+						{{ route.name }}
+					</span>
 				</a>
 			</div>
 		</main>

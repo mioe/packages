@@ -5,6 +5,8 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    'IconCarbon:arrowRight': typeof import('~icons/carbon/arrow-right')['default']
+    'IconCarbon:chevronLeft': typeof import('~icons/carbon/chevron-left')['default']
     'IconCarbon:logoGithub': typeof import('~icons/carbon/logo-github')['default']
     'IconCarbon:moon': typeof import('~icons/carbon/moon')['default']
     'IconCarbon:sun': typeof import('~icons/carbon/sun')['default']
