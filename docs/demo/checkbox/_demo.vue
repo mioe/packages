@@ -9,9 +9,5 @@ import {
 		<Checkbox>
 			ddd
 		</Checkbox>
-
-		<button class="btn-primary">
-			test
-		</button>
 	</div>
 </template>

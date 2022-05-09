@@ -7,6 +7,10 @@ import { routes } from '../../../routes'
 <template>
 	<div class="mi--wrapper">
 		<main class="mi--grid">
+			<div class="mi--card">
+				<slot />
+			</div>
+
 			<div
 				v-for="(route, idx) in routes"
 				:key="idx"
@@ -25,20 +29,6 @@ import { routes } from '../../../routes'
 					{{ route.name }}
 				</a>
 			</div>
-
-			<slot />
 		</main>
 	</div>
 </template>
-
-<style scoped lang="sass">
-.mi--wrapper
-	position: relative
-	min-height: 100vh
-	padding: 16px
-
-.mi--grid
-	display: grid
-	grid-template-columns: repeat(auto-fill, minmax(280px,1fr))
-	gap: 16px
-</style>

@@ -27,8 +27,8 @@ defineProps({
 			</Starport>
 		</div>
 
-		<div class="mi--card">
+		<main class="mi--card">
 			<slot />
-		</div>
+		</main>
 	</div>
 </template>

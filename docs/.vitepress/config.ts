@@ -9,9 +9,19 @@ const config: UserConfig = {
 		docsRepo: 'mioe/packages',
 		docsDir: 'docs',
 		docsBranch: 'main',
-		editLinks: true,
 	},
 	head: [
+		['meta', { name: 'theme-color', content: '#ffffff' }],
+		['link', { rel: 'icon', href: '/favicon-32x32.png', type: 'image/png' }],
+		['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+		['meta', { name: 'author', content: 'Misha Gezha' }],
+		['meta', { property: 'og:title', content: '@mioe/packages' }],
+		['meta', { property: 'og:image', content: 'https://mioe-packages.web.app/og.png' }],
+		['meta', { property: 'og:description', content: 'My simple components via Vue' }],
+		['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+		['meta', { name: 'twitter:creator', content: '@mioeboss' }],
+		['meta', { name: 'twitter:image', content: 'https://mioe-packages.web.app/og.png' }],
+
 		/**
 		 * google fonts
 		 */
