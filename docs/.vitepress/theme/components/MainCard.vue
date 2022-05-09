@@ -21,8 +21,9 @@ import { isDark, toggleDark } from '../composables/useDark'
 
 		<footer class="flex justify-center gap-[8px]">
 			<a
-				href=""
+				href="https://github.com/mioe/packages"
 				class="btn--tiny"
+				target="_blank"
 			>
 				<icon-carbon:logo-github />
 			</a>
