@@ -2,6 +2,8 @@
 import { computed } from 'vue'
 import ButtonsDemo from './buttons/_demo.vue'
 import CheckboxDemo from './checkbox/_demo.vue'
+import DropdownDemo from './dropdown/_demo.vue'
+import ModalDemo from './modal/_demo.vue'
 import RadioDemo from './radio/_demo.vue'
 
 const props = defineProps({
@@ -14,6 +16,8 @@ const props = defineProps({
 const demos = {
 	'Buttons': ButtonsDemo,
 	'Checkbox': CheckboxDemo,
+	'Dropdown': DropdownDemo,
+	'Modal': ModalDemo,
 	'Radio': RadioDemo,
 }
 

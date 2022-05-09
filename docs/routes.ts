@@ -8,6 +8,14 @@ export const routes = [
 		href: '/src/checkbox',
 	},
 	{
+		name: 'Dropdown',
+		href: '/src/dropdown',
+	},
+	{
+		name: 'Modal',
+		href: '/src/modal',
+	},
+	{
 		name: 'Radio',
 		href: '/src/radio',
 	},
