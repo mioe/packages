@@ -11,8 +11,12 @@ const btnBase = {
 	'&:focus, &:focus-visible, &:focus-within': {
 		outline: 'none',
 	},
-	'&:focus': {
+	'&:focus, .focus': {
 		boxShadow: '0 0 0 2px var(--primary)',
+	},
+	'&:disabled, .disabled': {
+		opacity: '.7',
+		cursor: 'not-allowed',
 	},
 }
 

@@ -1,5 +1,9 @@
 export const routes = [
 	{
+		name: 'Buttons',
+		href: '/src/buttons',
+	},
+	{
 		name: 'Checkbox',
 		href: '/src/checkbox',
 	},

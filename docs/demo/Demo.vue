@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import ButtonsDemo from './buttons/_demo.vue'
 import CheckboxDemo from './checkbox/_demo.vue'
 import RadioDemo from './radio/_demo.vue'
 
@@ -11,6 +12,7 @@ const props = defineProps({
 })
 
 const demos = {
+	'Buttons': ButtonsDemo,
 	'Checkbox': CheckboxDemo,
 	'Radio': RadioDemo,
 }

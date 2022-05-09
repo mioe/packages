@@ -20,7 +20,7 @@ export default defineConfig(() => {
 						prefix: 'icon',
 					}),
 				],
-				dts: 'src/components.d.ts',
+				dts: 'components.d.ts',
 			}),
 
 			// https://github.com/antfu/unplugin-icons

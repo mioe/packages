@@ -2,14 +2,15 @@
 import { Starport } from 'vue-starport'
 import Demo from '../../../demo/Demo.vue'
 import { routes } from '../../../routes'
+import MainCard from '../components/MainCard.vue'
 </script>
 
 <template>
 	<div class="mi--wrapper">
 		<main class="mi--grid">
-			<div class="mi--card">
+			<MainCard>
 				<slot />
-			</div>
+			</MainCard>
 
 			<div
 				v-for="(route, idx) in routes"
