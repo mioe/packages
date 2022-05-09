@@ -7,7 +7,7 @@ import MainCard from '../components/MainCard.vue'
 
 <template>
 	<div class="mi--wrapper">
-		<main class="mi--grid container-default">
+		<main class="mi--grid">
 			<MainCard>
 				<slot />
 			</MainCard>

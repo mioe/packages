@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRoute } from 'vitepress'
 import { computed } from 'vue'
+import { useMounted } from '@vueuse/core'
 import { routes } from '../../routes'
 
 import { StarportCarrier } from 'vue-starport'
@@ -18,10 +19,15 @@ const routeName = computed(() => {
 	}
 	return pathWithoutHtml || 'Unknown'
 })
+
+const isMounted = useMounted()
 </script>
 
 <template>
-	<div class="relative w-full min-h-screen">
+	<div
+		v-if="isMounted"
+		class="relative w-full min-h-screen"
+	>
 		<StarportCarrier>
 			<Transition name="page-fade">
 				<MainPageLayout
