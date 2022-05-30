@@ -1,7 +1,6 @@
 /**
  * Styles
  */
-import 'virtual:windi.css'
 import './assets/sass/main.sass'
 
 /**
