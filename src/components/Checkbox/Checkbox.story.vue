@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import 'virtual:windi.css'
-import '../../assets/sass/main.sass'
 import Checkbox from './Checkbox.vue'
 </script>
 

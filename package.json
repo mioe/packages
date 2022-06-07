@@ -26,10 +26,10 @@
 	"scripts": {
 		"dev": "histoire dev --port 3333",
 		"build": "histoire build",
+		"preview": "histoire preview --port 4567",
 		"typecheck": "vue-tsc --noEmit",
 		"lint": "eslint --ext .js,.vue,.ts,.mjs,.mts --ignore-path .gitignore --fix src docs",
-		"pub": "vue-tsc --declaration --emitDeclarationOnly && vite build && pnpm publish",
-		"deploy": "histoire build && firebase deploy"
+		"pub": "vue-tsc --declaration --emitDeclarationOnly && vite build && pnpm publish"
 	},
 	"dependencies": {
 		"@vueuse/core": "^8.6.0",

@@ -12,6 +12,10 @@ export default defineConfig(() => {
 			// https://github.com/antfu/vite-plugin-windicss
 			WindiCSS(),
 		],
+
+		// Alternative way of specifying histoire config
+		setupFile: `${resolve(__dirname, 'src')}/histoire.setup.ts`,
+
 		build: {
 			lib: {
 				entry: `${resolve(__dirname, 'src')}/main.ts`,
