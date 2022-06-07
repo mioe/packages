@@ -16,7 +16,6 @@ specifiers:
   vite: ^2.9.10
   vite-plugin-windicss: ^1.8.4
   vue: ^3.2.37
-  vue-starport: ^0.2.11
   vue-tsc: ^0.35.2
   windicss: ^3.5.4
 
@@ -24,7 +23,6 @@ dependencies:
   '@vueuse/core': 8.6.0_vue@3.2.37
   pinia: 2.0.14_vcmyupim4cga7k7f5hngmth5py
   vue: 3.2.37
-  vue-starport: 0.2.11
 
 devDependencies:
   '@iconify/json': 2.1.57
@@ -2587,15 +2585,6 @@ packages:
       '@vue/devtools-api': 6.1.4
       vue: 3.2.37
     dev: true
-
-  /vue-starport/0.2.11:
-    resolution: {integrity: sha512-JUG5ZTvVwD8HY6M5/0dl9BTVSFfjDbDqG8cb1F0hY2wO1OTkIac+iwX8yr4f5U+2jxie6RGchoyJzQktVTwkUQ==}
-    dependencies:
-      '@vueuse/core': 8.6.0_vue@3.2.37
-      vue: 3.2.37
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-    dev: false
 
   /vue-tsc/0.35.2_typescript@4.7.3:
     resolution: {integrity: sha512-aqY16VlODHzqtKGUkqdumNpH+s5ABCkufRyvMKQlL/mua+N2DfSVnHufzSNNUMr7vmOO0YsNg27jsspBMq4iGA==}

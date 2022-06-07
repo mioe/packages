@@ -21,7 +21,7 @@
 	},
 	"engines": {
 		"node": ">=16",
-		"pnpm": ">=6"
+		"pnpm": ">=7"
 	},
 	"scripts": {
 		"dev": "histoire dev --port 3333",
@@ -34,8 +34,7 @@
 	"dependencies": {
 		"@vueuse/core": "^8.6.0",
 		"pinia": "^2.0.14",
-		"vue": "^3.2.37",
-		"vue-starport": "^0.2.11"
+		"vue": "^3.2.37"
 	},
 	"devDependencies": {
 		"@iconify/json": "^2.1.57",
