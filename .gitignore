@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 dist-types
-hdist
+.histoire
 .firebase
 
 # Editor directories and files
