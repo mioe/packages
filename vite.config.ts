@@ -13,8 +13,11 @@ export default defineConfig(() => {
 			WindiCSS(),
 		],
 
-		// Alternative way of specifying histoire config
-		setupFile: `${resolve(__dirname, 'src')}/histoire.setup.ts`,
+		// https://github.com/histoire-dev/histoire/blob/main/examples/vue3/vite.config.ts
+		histoire: {
+			// Alternative way of specifying histoire config
+			setupFile: `${resolve(__dirname, 'src')}/histoire.setup.ts`,
+		},
 
 		build: {
 			lib: {
