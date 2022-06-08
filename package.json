@@ -21,36 +21,35 @@
 	},
 	"engines": {
 		"node": ">=16",
-		"pnpm": ">=6"
+		"pnpm": ">=7"
 	},
 	"scripts": {
-		"dev": "vitepress dev docs --port 3333 --host",
-		"build": "vitepress build docs",
+		"dev": "histoire dev --port 3333",
+		"build": "histoire build",
+		"preview": "histoire preview --port 4567",
 		"typecheck": "vue-tsc --noEmit",
 		"lint": "eslint --ext .js,.vue,.ts,.mjs,.mts --ignore-path .gitignore --fix src docs",
-		"pub": "vue-tsc --declaration --emitDeclarationOnly && vite build && pnpm publish",
-		"deploy": "vitepress build docs && firebase deploy"
+		"pub": "vue-tsc --declaration --emitDeclarationOnly && vite build && pnpm publish"
 	},
 	"dependencies": {
-		"@vueuse/core": "^8.5.0",
+		"@vueuse/core": "^8.6.0",
 		"pinia": "^2.0.14",
-		"vue": "^3.2.36",
-		"vue-starport": "^0.2.11"
+		"vue": "^3.2.37"
 	},
 	"devDependencies": {
-		"@iconify/json": "^2.1.53",
+		"@iconify/json": "^2.1.57",
 		"@mioe/eslint-config": "^0.1.1",
-		"@types/node": "^17.0.36",
+		"@types/node": "^17.0.41",
 		"@vitejs/plugin-vue": "^2.3.3",
-		"eslint": "^8.16.0",
-		"sass": "^1.52.1",
-		"typescript": "^4.7.2",
+		"eslint": "^8.17.0",
+		"histoire": "^0.7.3",
+		"sass": "^1.52.2",
+		"typescript": "^4.7.3",
 		"unplugin-icons": "^0.14.3",
 		"unplugin-vue-components": "^0.19.6",
-		"vite": "^2.9.9",
+		"vite": "^2.9.10",
 		"vite-plugin-windicss": "^1.8.4",
-		"vitepress": "^0.22.4",
-		"vue-tsc": "^0.35.0",
+		"vue-tsc": "^0.35.2",
 		"windicss": "^3.5.4"
 	}
 }
